@@ -1,4 +1,4 @@
-# LSPlant
+# LFPlant
 
 ![](https://img.shields.io/badge/license-LGPL--3.0-orange.svg)
 ![](https://img.shields.io/badge/Android-5.0%20--%2015%20DP1-blue.svg)
@@ -6,9 +6,9 @@
 ![](https://github.com/LSPosed/LSPlant/actions/workflows/build.yml/badge.svg?branch=master&event=push)
 ![](https://img.shields.io/maven-central/v/org.lsposed.lsplant/lsplant.svg)
 
-LSPlant is an Android ART hook library, providing Java method hook/unhook and inline deoptimization.
+LFPlant is an Android ART hook library, providing Java method hook/unhook and inline deoptimization.
 
-This project is part of LSPosed framework under GNU Lesser General Public License.
+This project is part of LFPosed framework under GNU Lesser General Public License.
 
 ## Features
 
