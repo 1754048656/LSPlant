@@ -122,7 +122,7 @@ val ver = repo?.latestTag?.removePrefix("v") ?: "0.0"
 println("${rootProject.name} version: $ver")
 
 publish {
-    githubRepo = "LSPosed/LSPlant"
+    githubRepo = "1754048656/LSPlant"
     publications {
         fun MavenPublication.setup() {
             group = "org.lsposed.lsplant"
@@ -130,22 +130,22 @@ publish {
             pom {
                 name.set("LSPlant")
                 description.set("A hook framework for Android Runtime (ART)")
-                url.set("https://github.com/LSPosed/LSPlant")
+                url.set("https://github.com/1754048656/LSPlant")
                 licenses {
                     license {
                         name.set("GNU Lesser General Public License v3.0")
-                        url.set("https://github.com/LSPosed/LSPlant/blob/master/LICENSE")
+                        url.set("https://github.com/1754048656/LSPlant/blob/master/LICENSE")
                     }
                 }
                 developers {
                     developer {
-                        name.set("Lsposed")
+                        name.set("Lfposed")
                         url.set("https://lsposed.org")
                     }
                 }
                 scm {
-                    connection.set("scm:git:https://github.com/LSPosed/LSPlant.git")
-                    url.set("https://github.com/LSPosed/LSPlant")
+                    connection.set("scm:git:https://github.com/1754048656/LSPlant.git")
+                    url.set("https://github.com/1754048656/LSPlant")
                 }
             }
         }
